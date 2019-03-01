@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main">
+
+    <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+    </FrameLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#808080"/>
+
+    <LinearLayout
+            android:id="@+id/bottom_bar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0">
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="3dp">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="5"
+                       android:src="@drawable/bottom_pic_selector_a"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottom_text_selector"
+                    android:text="柊一飒"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="3dp">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="5"
+                       android:src="@drawable/bottom_pic_selector_b"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottom_text_selector"
+                    android:text="甲斐隼人"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="3dp">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="5"
+                       android:src="@drawable/bottom_pic_selector_c"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottom_text_selector"
+                    android:text="宇佐美香帆"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="3dp">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="5"
+                       android:src="@drawable/bottom_pic_selector_d"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottom_text_selector"
+                    android:text="森崎瑞希"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="3dp">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="5"
+                       android:src="@drawable/bottom_pic_selector_e"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottom_text_selector"
+                    android:text="熊泽花恋"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
